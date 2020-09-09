@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background: #3aaf9f;
+}
+
+.wrapper{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 350px;
+  width: 100%;
+  height: 600px;
+  background: #fff;
+  padding: 60px 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+}
+
+.wrapper #background{
+ 
+  
+  max-width: 350px;
+  position: absolute;
+  top: 19%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  
+}
+.wrapper .title{
+  margin-top: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #3aaf9f;
+}
+
+.wrapper .social_media{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.wrapper .social_media .item{
+  margin: 0 5px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border: 2px solid #eeeeee;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #eeeeee;
+  transition: all 0.5s ease;
+}
+
+.wrapper .social_media .item:hover{
+  border: 2px solid #3aaf9f;
+  color: #3aaf9f;
+}
+
+.wrapper .form .input_field{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.wrapper .form .input_field .input{
+  width: 100%;
+  padding: 12px;
+  padding-left: 30px;
+  border: none;
+  background: #eeeeee;
+}
+
+
+#click{
+  width: 70%;
+  margin: 20px 40px 10px;
+  background: transparent;
+  text-align: center ;
+  padding: 12px;
+  border-radius: 25px;
+  border: 3px solid #3aaf9f;
+  color: #3aaf9f;
+  text-transform: uppercase;
+}
+#click:hover{
+  background-color: #3aaf9f ;
+  color: #fff;
+}
+
+
+
+.wrapper .form .input_field i{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 14px;
+  color: #1d2120;
+}
+
+h1{
+  margin-top: 200px;
+  text-align: center;
+  border: 2px solid #3aaf9f;
+  border-radius: 4px;
+  color: #3aaf9f;
+  
+}
+p{
+  margin-top: 50px;
+  text-align: center;
+  color: #3aaf9f;
+  font-size: large;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #1d2120;
+}
+::-moz-placeholder { /* Firefox 19+ */
+ color: #1d2120;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #1d2120;
+}
